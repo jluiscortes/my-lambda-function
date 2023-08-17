@@ -1,0 +1,11 @@
+### Test
+POST http://localhost:8080/token/v2/tokens
+Content-Type: application/json
+
+{
+    "email": "gian.corzo@gmail.com",
+    "card_number": "4111111111111111",
+    "cvv": "123",
+    "expiration_year":"2025",
+    "expiration_month":"09"
+}
